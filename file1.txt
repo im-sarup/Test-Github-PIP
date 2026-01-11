@@ -1,0 +1,9 @@
+file 1:
+…or create a new repository on the command line
+echo "# Test-Github-PIP" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:im-sarup/Test-Github-PIP.git
+git push -u origin main
